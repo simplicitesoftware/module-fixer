@@ -832,4 +832,60 @@ Use the _Refresh_ nutton on the rates business object.]]></mdl_comment>
 		<row_module_id.mdl_name>Fixer</row_module_id.mdl_name>
 	</data>
 </object>
+<object>
+	<name>TranslateObjectField</name>
+	<action>upsert</action>
+	<data>
+		<tsl_typeObjectField>L</tsl_typeObjectField>
+		<tsl_id.obf_object_id.obo_name>FixerRates</tsl_id.obf_object_id.obo_name>
+		<tsl_id.obf_field_id.fld_name>isoCurCode</tsl_id.obf_field_id.fld_name>
+		<tsl_id.obf_order>110</tsl_id.obf_order>
+		<tsl_lang>ENU</tsl_lang>
+		<tsl_value>Base currency</tsl_value>
+		<tsl_simplehelp/>
+		<tsl_short_value/>
+		<tsl_listhelp/>
+		<tsl_placeholder/>
+		<row_module_id.mdl_name>Fixer</row_module_id.mdl_name>
+	</data>
+	<data>
+		<tsl_typeObjectField>L</tsl_typeObjectField>
+		<tsl_id.obf_object_id.obo_name>FixerRates</tsl_id.obf_object_id.obo_name>
+		<tsl_id.obf_field_id.fld_name>isoCurCode</tsl_id.obf_field_id.fld_name>
+		<tsl_id.obf_order>210</tsl_id.obf_order>
+		<tsl_lang>ENU</tsl_lang>
+		<tsl_value>Target currency</tsl_value>
+		<tsl_simplehelp/>
+		<tsl_short_value/>
+		<tsl_listhelp/>
+		<tsl_placeholder/>
+		<row_module_id.mdl_name>Fixer</row_module_id.mdl_name>
+	</data>
+	<data>
+		<tsl_typeObjectField>L</tsl_typeObjectField>
+		<tsl_id.obf_object_id.obo_name>FixerRates</tsl_id.obf_object_id.obo_name>
+		<tsl_id.obf_field_id.fld_name>isoCurCode</tsl_id.obf_field_id.fld_name>
+		<tsl_id.obf_order>110</tsl_id.obf_order>
+		<tsl_lang>FRA</tsl_lang>
+		<tsl_value>Devise de base</tsl_value>
+		<tsl_simplehelp/>
+		<tsl_short_value/>
+		<tsl_listhelp/>
+		<tsl_placeholder/>
+		<row_module_id.mdl_name>Fixer</row_module_id.mdl_name>
+	</data>
+	<data>
+		<tsl_typeObjectField>L</tsl_typeObjectField>
+		<tsl_id.obf_object_id.obo_name>FixerRates</tsl_id.obf_object_id.obo_name>
+		<tsl_id.obf_field_id.fld_name>isoCurCode</tsl_id.obf_field_id.fld_name>
+		<tsl_id.obf_order>210</tsl_id.obf_order>
+		<tsl_lang>FRA</tsl_lang>
+		<tsl_value>Devise cible</tsl_value>
+		<tsl_simplehelp/>
+		<tsl_short_value/>
+		<tsl_listhelp/>
+		<tsl_placeholder/>
+		<row_module_id.mdl_name>Fixer</row_module_id.mdl_name>
+	</data>
+</object>
 </simplicite>
