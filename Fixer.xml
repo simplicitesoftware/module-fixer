@@ -68,7 +68,15 @@ Use the _Refresh_ nutton on the rates business object.]]></mdl_comment>
 	<action>upsert</action>
 	<data>
 		<grp_name>FIXER_ADMIN</grp_name>
-		<grp_comment><![CDATA[Fixer.io admin]]></grp_comment>
+		<grp_comment><![CDATA[Fixer.io rates admin]]></grp_comment>
+		<grp_type>G</grp_type>
+		<grp_parent_id.grp_name/>
+		<grp_home_id.viw_name/>
+		<row_module_id.mdl_name>Fixer</row_module_id.mdl_name>
+	</data>
+	<data>
+		<grp_name>FIXER_USER</grp_name>
+		<grp_comment><![CDATA[Fixer.io rates user]]></grp_comment>
 		<grp_type>G</grp_type>
 		<grp_parent_id.grp_name/>
 		<grp_home_id.viw_name/>
@@ -614,6 +622,15 @@ Use the _Refresh_ nutton on the rates business object.]]></mdl_comment>
 		<row_module_id.mdl_name>Fixer</row_module_id.mdl_name>
 	</data>
 	<data>
+		<fct_name>FixerRates-R</fct_name>
+		<fct_object_id.obj_type>O</fct_object_id.obj_type>
+		<fct_object_id.obj_name>FixerRates</fct_object_id.obj_name>
+		<fct_function>L</fct_function>
+		<fct_action_id.act_name/>
+		<fct_view_id.viw_name/>
+		<row_module_id.mdl_name>Fixer</row_module_id.mdl_name>
+	</data>
+	<data>
 		<fct_name>FixerRatesRefresh</fct_name>
 		<fct_object_id.obj_type>O</fct_object_id.obj_type>
 		<fct_object_id.obj_name>FixerRates</fct_object_id.obj_name>
@@ -643,6 +660,16 @@ Use the _Refresh_ nutton on the rates business object.]]></mdl_comment>
 		<grt_function_id.fct_object_id.obj_name>FixerRates</grt_function_id.fct_object_id.obj_name>
 		<grt_function_id.fct_action_id.act_name>FixerRatesRefresh</grt_function_id.fct_action_id.act_name>
 		<grt_function_id.fct_function>A</grt_function_id.fct_function>
+		<grt_activ>1</grt_activ>
+		<row_module_id.mdl_name>Fixer</row_module_id.mdl_name>
+	</data>
+	<data>
+		<grt_group_id.grp_name>FIXER_USER</grt_group_id.grp_name>
+		<grt_function_id.fct_name>FixerRates-R</grt_function_id.fct_name>
+		<grt_function_id.fct_object_id.obj_type>O</grt_function_id.fct_object_id.obj_type>
+		<grt_function_id.fct_object_id.obj_name>FixerRates</grt_function_id.fct_object_id.obj_name>
+		<grt_function_id.fct_action_id.act_name/>
+		<grt_function_id.fct_function>L</grt_function_id.fct_function>
 		<grt_activ>1</grt_activ>
 		<row_module_id.mdl_name>Fixer</row_module_id.mdl_name>
 	</data>
