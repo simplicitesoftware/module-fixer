@@ -1,0 +1,10 @@
+{
+    "date": "Mon Feb 03 15:44:12 CET 2020",
+    "name": "Fixer",
+    "format": "xml",
+    "description": "### Introduction\n\nFixer.io service conversion rates.\n\n> **Note**: This module depends on ISO Currencies module.\n\n### Import\n\nTo import this module:\n\n- Create a module named `Fixer`\n- Set the settings as:\n\n```json\n{\n\t\"type\": \"git\",\n\t\"origin\": {\n\t\t\"uri\": \"https://github.com/simplicitesoftware/module-fixer.git\"\n\t}\n}\n```\n\n- Click on the _Import module_ button\n\n### Configure\n\nThe configuration of the Fixer.io service is stored in the `FIXER_SETTINGS` system parameter.\n\n### Refresh data\n\nUse the _Refresh_ nutton on the rates business object.",
+    "files": ["Fixer.xml"],
+    "repository": {"origin": {"uri": "https://github.com/simplicitesoftware/module-fixer.git"}},
+    "version": "4.0",
+    "dependencies": [{"Simplicite": "4.0"}]
+}
