@@ -1,19 +1,20 @@
 package com.simplicite.objects.Fixer;
 
-import org.json.JSONObject;
 import org.json.JSONArray;
+import org.json.JSONObject;
+
 import com.simplicite.util.AppLog;
 import com.simplicite.util.Message;
 import com.simplicite.util.Tool;
-import com.simplicite.util.tools.RESTTool;
 import com.simplicite.util.tools.BusinessObjectTool;
+import com.simplicite.util.tools.RESTTool;
 
 /**
  * Fixer.io conversion rates rates.
  */
 public class FixerRates extends com.simplicite.util.ObjectDB {
 	private static final long serialVersionUID = 1L;
-	
+
 	private String getCurrencyId(String code) {
 		return getGrant().simpleQuery("select row_id from iso_currency where cur_code = '" + code+ "'");
 	}
@@ -36,7 +37,7 @@ public class FixerRates extends com.simplicite.util.ObjectDB {
 			}
 
 			BusinessObjectTool fixt = new BusinessObjectTool(this);
-			resetFilter();
+			resetFilters();
 			String url = settings.getString("url");
 			JSONArray bases = settings.getJSONArray("bases");
 
@@ -50,7 +51,7 @@ public class FixerRates extends com.simplicite.util.ObjectDB {
 				AppLog.info(getClass(), "fixerRefresh", "Rates: " + r, getGrant());
 				JSONObject rates = new JSONObject(r);
 				AppLog.info(getClass(), "fixerRefresh", "Rates (JSON): " + rates.toString(), getGrant());
-				
+
 				String date = rates.getString("date");
 				JSONObject targets = rates.getJSONObject("rates");
 				for (String target : targets.keySet()) {
@@ -67,9 +68,9 @@ public class FixerRates extends com.simplicite.util.ObjectDB {
 					setFieldValue("fixerConversionRate", rate);
 					fixt.validateAndSave();
 				}
-					
+
 			}
-			
+
 			return Message.formatSimpleText(settings.toString(2));
 		} catch (Exception e) {
 			return Message.formatSimpleError(e.getMessage());
