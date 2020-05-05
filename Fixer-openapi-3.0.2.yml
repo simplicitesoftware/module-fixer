@@ -34,6 +34,7 @@ components:
         fixerDate:
           description: Date du taux de conversion
           type: string
+          example: yyyy-MM-dd
         row_id:
           description: Unique technical row ID
           type: string
