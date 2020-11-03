@@ -140,6 +140,7 @@ Use the _Refresh_ nutton on the rates business object.]]></mdl_comment>
 		<fld_case/>
 		<fld_righttoleft>0</fld_righttoleft>
 		<fld_rendering/>
+		<fld_speech/>
 		<fld_calc/>
 		<fld_objlist/>
 		<fld_comment><![CDATA[Base currency]]></fld_comment>
@@ -176,6 +177,7 @@ Use the _Refresh_ nutton on the rates business object.]]></mdl_comment>
 		<fld_case/>
 		<fld_righttoleft>0</fld_righttoleft>
 		<fld_rendering/>
+		<fld_speech/>
 		<fld_calc/>
 		<fld_objlist/>
 		<fld_comment><![CDATA[Conversion rate]]></fld_comment>
@@ -212,6 +214,7 @@ Use the _Refresh_ nutton on the rates business object.]]></mdl_comment>
 		<fld_case/>
 		<fld_righttoleft>0</fld_righttoleft>
 		<fld_rendering/>
+		<fld_speech/>
 		<fld_calc/>
 		<fld_objlist/>
 		<fld_comment><![CDATA[Date du taux de conversion]]></fld_comment>
@@ -248,6 +251,7 @@ Use the _Refresh_ nutton on the rates business object.]]></mdl_comment>
 		<fld_case/>
 		<fld_righttoleft>0</fld_righttoleft>
 		<fld_rendering/>
+		<fld_speech/>
 		<fld_calc/>
 		<fld_objlist/>
 		<fld_comment><![CDATA[Target currency]]></fld_comment>
@@ -346,6 +350,8 @@ Use the _Refresh_ nutton on the rates business object.]]></mdl_comment>
 		<obo_btn_merge>P</obo_btn_merge>
 		<obo_btn_save>1</obo_btn_save>
 		<obo_btn_saveclose>1</obo_btn_saveclose>
+		<obo_btn_savenew>1</obo_btn_savenew>
+		<obo_btn_savecopy>1</obo_btn_savecopy>
 		<obo_btn_close>1</obo_btn_close>
 		<obo_tray>1</obo_tray>
 		<obo_dashboard>1</obo_dashboard>
@@ -800,14 +806,14 @@ Use the _Refresh_ nutton on the rates business object.]]></mdl_comment>
 		<tsl_typeFieldArea>Z</tsl_typeFieldArea>
 		<tsl_id.ofa_name>FixerRates-1</tsl_id.ofa_name>
 		<tsl_lang>ENU</tsl_lang>
-		<tsl_value>Rate</tsl_value>
+		<tsl_value>Exchange rate</tsl_value>
 		<row_module_id.mdl_name>Fixer</row_module_id.mdl_name>
 	</data>
 	<data>
 		<tsl_typeFieldArea>Z</tsl_typeFieldArea>
 		<tsl_id.ofa_name>FixerRates-1</tsl_id.ofa_name>
 		<tsl_lang>FRA</tsl_lang>
-		<tsl_value>FixerRates-1</tsl_value>
+		<tsl_value>Taux de change</tsl_value>
 		<row_module_id.mdl_name>Fixer</row_module_id.mdl_name>
 	</data>
 </object>
@@ -818,7 +824,7 @@ Use the _Refresh_ nutton on the rates business object.]]></mdl_comment>
 		<tsl_typeObject>O</tsl_typeObject>
 		<tsl_id.obo_name>FixerRates</tsl_id.obo_name>
 		<tsl_lang>ENU</tsl_lang>
-		<tsl_value>Fixer rates</tsl_value>
+		<tsl_value>Exchange rate|Exchange rates</tsl_value>
 		<tsl_help/>
 		<row_module_id.mdl_name>Fixer</row_module_id.mdl_name>
 	</data>
@@ -826,7 +832,7 @@ Use the _Refresh_ nutton on the rates business object.]]></mdl_comment>
 		<tsl_typeObject>O</tsl_typeObject>
 		<tsl_id.obo_name>FixerRates</tsl_id.obo_name>
 		<tsl_lang>FRA</tsl_lang>
-		<tsl_value>Fixer rates</tsl_value>
+		<tsl_value>Taux de change|Taux de change</tsl_value>
 		<tsl_help/>
 		<row_module_id.mdl_name>Fixer</row_module_id.mdl_name>
 	</data>

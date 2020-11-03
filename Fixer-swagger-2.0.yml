@@ -469,4 +469,4 @@ info:
   version: '4.0'
 tags:
 - name: FixerRates
-  description: Fixer rates
+  description: Exchange rate
