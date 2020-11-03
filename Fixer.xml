@@ -264,7 +264,8 @@ Use the _Refresh_ nutton on the rates business object.]]></mdl_comment>
 	<action>upsert</action>
 	<data>
 		<tpl_name>FixerRates</tpl_name>
-		<tpl_ui><![CDATA[<div class="area" data-area="1"></div>]]></tpl_ui>
+		<tpl_ui><![CDATA[<div class="area" data-area="1"></div>
+]]></tpl_ui>
 		<tpl_min/>
 		<tpl_image/>
 		<row_module_id.mdl_name>Fixer</row_module_id.mdl_name>
@@ -276,7 +277,7 @@ Use the _Refresh_ nutton on the rates business object.]]></mdl_comment>
 	<data>
 		<ofa_name>FixerRates-1</ofa_name>
 		<ofa_position>1</ofa_position>
-		<ofa_title>1</ofa_title>
+		<ofa_title>0</ofa_title>
 		<ofa_ui><![CDATA[<div class="row">
   <div class="col-sm-6">
     <div class="field" data-field="fixerBaseCurId"></div>
@@ -288,7 +289,8 @@ Use the _Refresh_ nutton on the rates business object.]]></mdl_comment>
     <div class="field" data-field="fixerTargetCurId__isoCurCode"></div>
     <div class="field" data-field="fixerConversionRate"></div>
   </div>
-</div>]]></ofa_ui>
+</div>
+]]></ofa_ui>
 		<ofa_icon/>
 		<row_module_id.mdl_name>Fixer</row_module_id.mdl_name>
 	</data>
