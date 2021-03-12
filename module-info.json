@@ -4,6 +4,6 @@
     "format": "xml",
     "files": ["Fixer.xml"],
     "repository": {},
-    "version": "4.0",
+    "version": "5",
     "platform": "5.2.0-alpha"
 }
