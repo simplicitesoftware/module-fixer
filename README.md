@@ -52,8 +52,8 @@ Fixer currencies rates
 
 ### Fields
 
-| Name                                                         | Type                                     | Required | Updatable | Personal | Description                                                                      | 
-| ------------------------------------------------------------ | ---------------------------------------- | -------- | --------- | -------- | -------------------------------------------------------------------------------- |
+| Name                                                         | Type                                     | Required | Updatable | Personal | Description                                                                      |
+|--------------------------------------------------------------|------------------------------------------|----------|-----------|----------|----------------------------------------------------------------------------------|
 | `fixerBaseCurId` link to **`ISOCurrency`**                   | id                                       | yes*     | yes       |          | Base currency                                                                    |
 | _Ref. `fixerBaseCurId.isoCurCode`_                           | _char(3)_                                |          |           |          | _Currency code (3 letters)_                                                      |
 | `fixerTargetCurId` link to **`ISOCurrency`**                 | id                                       | yes*     | yes       |          | Target currency                                                                  |
