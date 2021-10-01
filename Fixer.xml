@@ -6,14 +6,14 @@
 	<data>
 		<mdl_name>Fixer</mdl_name>
 		<mdl_version>5</mdl_version>
-		<mdl_prefix/>
+		<mdl_prefix>fixer</mdl_prefix>
 		<mdl_url><![CDATA[{
 	"type": "git",
 	"origin": {
 		"uri": "https://github.com/simplicitesoftware/module-fixer.git"
 	}
 }]]></mdl_url>
-		<mdl_lastupd>2020-02-03 15:44:12</mdl_lastupd>
+		<mdl_type>C</mdl_type>
 		<mdl_comment><![CDATA[[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=simplicite-modules-Fixer&metric=alert_status)](https://sonarcloud.io/dashboard?id=simplicite-modules-Fixer)
 
 ### Introduction
@@ -123,7 +123,7 @@ Use the _Refresh_ nutton on the rates business object.]]></mdl_comment>
 		<fld_more>0</fld_more>
 		<fld_listmore>0</fld_listmore>
 		<fld_listsum/>
-		<fld_tray/>
+		<fld_tray>0</fld_tray>
 		<fld_type>0</fld_type>
 		<fld_type_id.flt_code/>
 		<fld_list_id.lov_name/>
@@ -160,7 +160,7 @@ Use the _Refresh_ nutton on the rates business object.]]></mdl_comment>
 		<fld_more>0</fld_more>
 		<fld_listmore>0</fld_listmore>
 		<fld_listsum/>
-		<fld_tray/>
+		<fld_tray>0</fld_tray>
 		<fld_type>2</fld_type>
 		<fld_type_id.flt_code/>
 		<fld_list_id.lov_name/>
@@ -197,7 +197,7 @@ Use the _Refresh_ nutton on the rates business object.]]></mdl_comment>
 		<fld_more>0</fld_more>
 		<fld_listmore>0</fld_listmore>
 		<fld_listsum/>
-		<fld_tray/>
+		<fld_tray>0</fld_tray>
 		<fld_type>4</fld_type>
 		<fld_type_id.flt_code/>
 		<fld_list_id.lov_name/>
@@ -234,7 +234,7 @@ Use the _Refresh_ nutton on the rates business object.]]></mdl_comment>
 		<fld_more>0</fld_more>
 		<fld_listmore>0</fld_listmore>
 		<fld_listsum/>
-		<fld_tray/>
+		<fld_tray>0</fld_tray>
 		<fld_type>0</fld_type>
 		<fld_type_id.flt_code/>
 		<fld_list_id.lov_name/>
@@ -301,6 +301,7 @@ Use the _Refresh_ nutton on the rates business object.]]></mdl_comment>
 	<data>
 		<obo_name>FixerRates</obo_name>
 		<obo_dbtable>fixer_rates</obo_dbtable>
+		<obo_role>OBJ</obo_role>
 		<obo_class/>
 		<obo_script_id>src/com/simplicite/objects/Fixer/FixerRates.java</obo_script_id>
 		<obo_usets>1</obo_usets>
@@ -361,6 +362,8 @@ Use the _Refresh_ nutton on the rates business object.]]></mdl_comment>
 		<obo_search_ts/>
 		<obo_minrows/>
 		<obo_maxrows/>
+		<obo_sortable>1</obo_sortable>
+		<obo_list_areas>1</obo_list_areas>
 	</data>
 </object>
 <object>

@@ -1,9 +1,9 @@
 {
-    "date": "2020-11-10 14:03:54",
+    "date": "2021-10-01 18:24:43",
     "name": "Fixer",
     "format": "xml",
     "files": ["Fixer.xml"],
-    "repository": {},
+    "repository": {"origin": {"uri": "https://github.com/simplicitesoftware/module-fixer.git"}},
     "version": "5",
-    "platform": "5.2.0-alpha"
+    "platform": "5.2.0-beta"
 }
